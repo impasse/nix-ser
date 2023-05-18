@@ -41,7 +41,7 @@
   };
 
   boot = {
-    kernelPackages = pkgs.linuxPackages_latest;
+    kernelPackages = pkgs.linuxPackages;
 
     initrd.kernelModules = [ "amdgpu" ];
 
