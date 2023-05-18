@@ -17,7 +17,6 @@
       delta
       nyancat
       ffmpeg
-      vscode
     ];
 
     file.".config/pip/pip.conf".text = ''
