@@ -65,7 +65,7 @@
   hardware.opengl.driSupport = true;
 
   networking = {
-    hostName = "nixos";
+    hostName = "nixos-ser";
 
     firewall = {
       enable = false;
