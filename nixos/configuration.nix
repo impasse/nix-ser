@@ -114,6 +114,7 @@
     gnome-tour
   ]) ++ (with pkgs.gnome; [
     cheese
+    gnome-maps
     gnome-music
     epiphany
     geary
