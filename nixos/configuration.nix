@@ -109,6 +109,21 @@
     sudo.wheelNeedsPassword = false;
   };
 
+  environment.gnome.excludePakages = (with pkgs; [
+    gnome-photos
+    gnome-tour
+  ]) ++ (with pkgs.gnome; [
+    cheese
+    gnome-music
+    epiphany
+    geary
+    totem
+    tali
+    iagno
+    hitori
+    atomix
+  ]);
+
   environment.systemPackages = (with pkgs; [
     vim
     coreutils-full
