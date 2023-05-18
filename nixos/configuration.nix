@@ -116,6 +116,10 @@
     cheese
     gnome-maps
     gnome-weather
+    gnome-contacts
+    gnome-help
+    gnome-clocks
+    gnome-calculator
     gnome-music
     epiphany
     geary
