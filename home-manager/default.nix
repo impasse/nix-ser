@@ -8,6 +8,8 @@
   home = {
     stateVersion = "22.11";
 
+    nixpkgs.config.allowUnfreePredicate = (pkg: true);
+
     packages = with pkgs; [
       neofetch
       tig
