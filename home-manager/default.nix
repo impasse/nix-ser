@@ -18,6 +18,7 @@
       nyancat
       ffmpeg
       firefox
+      vscode
     ];
 
     file.".config/pip/pip.conf".text = ''
