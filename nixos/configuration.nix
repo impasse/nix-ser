@@ -117,7 +117,8 @@
     gnome-maps
     gnome-weather
     gnome-contacts
-    gnome-help
+    yelp
+    simple-scan
     gnome-clocks
     gnome-calculator
     gnome-music
