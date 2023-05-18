@@ -130,7 +130,6 @@
     fzf
     highlight
     iftop
-    vscode
     tmux
     imgcat
     lsof
