@@ -15,7 +15,7 @@ fast:
 	sudo nixos-rebuild --flake . switch --fast
 
 switch:
-	sudo nixos-rebuild --flake . switch
+	sudo nixos-rebuild --flake . switch --install-bootloader
 
 
 all: update clean switch
