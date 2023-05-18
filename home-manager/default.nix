@@ -5,6 +5,14 @@
   imports = [
   ];
 
+  nixpkgs = {
+    config = {
+      allowUnfree = true;
+
+      allowUnfreePredicate = (_: true);
+    };
+  };
+
   home = {
     stateVersion = "22.11";
 
