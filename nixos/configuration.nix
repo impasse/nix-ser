@@ -180,7 +180,12 @@
     mlocate
     nodejs
     python3
+    virt-manager
   ]);
+
+  virtualisation.libvirtd = {
+    enable = true;
+  };
 
   services = {
     openssh = {
