@@ -245,7 +245,7 @@
     users = {
       yooyi = {
         isNormalUser = true;
-        extraGroups = [ "wheel" ];
+        extraGroups = [ "wheel" "networkmanager" "libvirtd" ];
         shell = pkgs.zsh;
         openssh.authorizedKeys.keys = [
           "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCwLGqoQdMyvVNiMjS86EXDyyDga3OCqQS2ddsMtJtN1crlbtxEuwoviAMPCOozbmV0bZoEc+ETwIGkoyZs61SKCBwQCjT8g07tivbCBUN9S5cC5BmsrbW3hoGiEgqcRrzE4RdcbkEMM6+HolesmHY6g/Fg+Ps9lnMgw+dYTcId40h+A49Vb8+gHRK8nRg8O/Jo53OanBDl/LPol7/tL+Slq4VyJdfLfse0msz9TBckA0affi+YGip0C3LIa0mPBojdzx78DTiPChA0aKTR5EdcTHOukG48yAUYnYo1pS2hVulhKwznUCdkUCsNEJ2sJYrazxWq7TQYd/v0L/Cs7s3t i@uuz.io"
