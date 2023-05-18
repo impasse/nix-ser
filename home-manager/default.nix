@@ -5,8 +5,6 @@
   imports = [
   ];
 
-  nixpkgs.config.allowUnfreePredicate = (_: true);
-
   home = {
     stateVersion = "22.11";
 
