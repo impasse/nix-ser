@@ -9,10 +9,12 @@
       neofetch
       tig
       you-get
+      firefox
       scc
       delta
       nyancat
       ffmpeg
+      vscode
     ];
 
     file.".config/pip/pip.conf".text = ''

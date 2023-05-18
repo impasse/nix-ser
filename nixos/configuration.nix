@@ -111,9 +111,9 @@
 
   environment.systemPackages = (with pkgs; [
     vim
-    firefox
     coreutils-full
     gcc
+    gdb
     man
     zsh
     gitFull
@@ -146,7 +146,6 @@
     nmap
     pcre
     nmon
-    gdb
     strace
     tldr
     unrar
