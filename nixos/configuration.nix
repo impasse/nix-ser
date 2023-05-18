@@ -178,18 +178,17 @@
     pciutils
     usbutils
     mlocate
-    go
-    rustc
-    cargo
     nodejs
-    python
+    python3
   ]);
 
   services = {
     openssh = {
       enable = true;
       allowSFTP = true;
-      permitRootLogin = "prohibit-password";
+      settings = {
+        PermitRootLogin = "prohibit-password";
+      };
     };
 
     locate = {
