@@ -5,6 +5,8 @@
   imports = [
   ];
 
+  nixpkgs.config.allowUnfreePredicate = (_: true);
+
   home = {
     stateVersion = "22.11";
 
@@ -18,7 +20,6 @@
       nyancat
       ffmpeg
       firefox
-      vscode
     ];
 
     file.".config/pip/pip.conf".text = ''

@@ -1,4 +1,4 @@
-{ inputs, lib, config, pkgs, ... }:
+{ inputs, lib, pkgs, ... }:
 
 {
   imports = [
@@ -53,8 +53,6 @@
         device = "nodev";
       };
     };
-
-    extraModulePackages = with config.boot.kernelPackages; [ ];
   };
 
   time.timeZone = "Asia/Shanghai";
