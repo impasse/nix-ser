@@ -109,7 +109,7 @@
     sudo.wheelNeedsPassword = false;
   };
 
-  environment.gnome.excludePakages = (with pkgs; [
+  environment.gnome.excludePackages = (with pkgs; [
     gnome-photos
     gnome-tour
   ]) ++ (with pkgs.gnome; [
