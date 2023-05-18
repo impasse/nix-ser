@@ -7,8 +7,6 @@
   ];
 
   nixpkgs = {
-    overlays = [
-    ];
     config = {
       allowUnfree = true;
       allowBroken = false;
@@ -69,7 +67,7 @@
   hardware.opengl.driSupport = true;
 
   networking = {
-    hostName = "nixos";
+    hostName = "nixos-ser";
 
     firewall = {
       enable = false;
