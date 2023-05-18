@@ -15,7 +15,7 @@ fast:
 	sudo nixos-rebuild --flake . switch --fast
 
 switch:
-	sudo nixos-rebuild --flake . switch --upgrade-all
+	sudo nixos-rebuild --flake . switch
 
 
 all: update clean switch

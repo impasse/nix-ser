@@ -115,6 +115,7 @@
   ]) ++ (with pkgs.gnome; [
     cheese
     gnome-maps
+    gnome-weather
     gnome-music
     epiphany
     geary
